@@ -33,9 +33,9 @@ Function Connect-RandomUser ()
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         
 
-        $GitHubModuleInfoURL = '' #Enter banner URL
+        $GitHubModuleInfoURL = 'https://github.com/scottd3v/RandomUser/blob/master/ModuleBanner.md' #Enter banner URL
 
-        $ReleaseNotesURL = '' #Enter release notes URL
+        $ReleaseNotesURL = 'https://github.com/scottd3v/RandomUser/blob/master/ModuleChangelog.md' #Enter release notes URL
     }
 
     process

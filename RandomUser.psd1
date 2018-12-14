@@ -103,16 +103,16 @@
             Tags         = @('New', 'Users', 'RandomUser', 'RandomUser', 'Random')
 
             # A URL to the license for this module.
-            LicenseUri   = '' #Update
+            LicenseUri   = 'https://github.com/scottd3v/RandomUser/blob/master/LICENSE'
 
             # A URL to the main website for this project.
-            ProjectUri   = '' #Update
+            ProjectUri   = 'https://github.com/scottd3v/RandomUser'
 
             # A URL to an icon representing this module.
             # IconUri = ''
 
             # ReleaseNotes of this module
-            ReleaseNotes = '' #Update
+            ReleaseNotes = 'https://github.com/scottd3v/RandomUser/blob/master/ModuleChangelog.md'
 
         } # End of PSData hashtable
 
