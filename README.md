@@ -1,3 +1,5 @@
+[![Build status](https://dev.azure.com/jcrandomuser/randomuser/_apis/build/status/randomuser-CI)](https://dev.azure.com/jcrandomuser/randomuser/_build/latest?definitionId=-1)
+
 # New User
 
 ## Installation
