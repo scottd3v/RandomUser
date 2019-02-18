@@ -1,5 +1,10 @@
 [![Build Status](https://dev.azure.com/jcrandomuser/randomuser/_apis/build/status/randomuser-OSX?branchName=master)](https://dev.azure.com/jcrandomuser/randomuser/_build/latest?definitionId=5&branchName=master)
 
+OSX:
+
+[![Build Status](https://dev.azure.com/jcrandomuser/randomuser/_apis/build/status/randomuser-OSX?branchName=master&jobName=Agent%20job)](https://dev.azure.com/jcrandomuser/randomuser/_build/latest?definitionId=5&branchName=master)
+
+
 # New User
 
 ## Installation
