@@ -17,7 +17,7 @@ Install-Module Pester, PowerShellGet -Force -SkipPublisherCheck -Scope CurrentUs
 "  Import Dependent Modules"
 Import-Module InvokeBuild, BuildHelpers, PSScriptAnalyzer
 
-#Set-BuildEnvironment
+Set-BuildEnvironment
 
 "  InvokeBuild"
 Invoke-Build $Task -Result result
