@@ -33,9 +33,9 @@ Function Connect-RandomUser ()
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         
 
-        $GitHubModuleInfoURL = 'https://github.com/scottd3v/RandomUser/blob/master/ModuleBanner.md' #Enter banner URL
+        $GitHubModuleInfoURL = 'https://github.com/scottd3v/RandomUser/blob/master/RandomUser/ModuleBanner.md' #Enter banner URL
 
-        $ReleaseNotesURL = 'https://github.com/scottd3v/RandomUser/blob/master/ModuleChangelog.md' #Enter release notes URL
+        $ReleaseNotesURL = 'https://github.com/scottd3v/RandomUser/blob/master/RandomUser/ModuleChangelog.md' #Enter release notes URL
     }
 
     process
@@ -91,7 +91,7 @@ Function Connect-RandomUser ()
                 While ($Accept -notcontains 'Y')
                 {
 
-                    write-warning " Typo? $Accept != 'Y'"
+                    Write-Warning " Typo? $Accept != 'Y'"
 
                     $Accept = Read-Host "`nEnter 'Y' if you wish to update to the latest version or 'N' to continue using version: $InstalledModuleVersion `n"
 
