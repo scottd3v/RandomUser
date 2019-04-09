@@ -5,7 +5,7 @@ Function New-RandomPassword ()
 
     param(
 
-        [Parameter()]
+        [Parameter()] 
         [ValidateRange(8, 24)]
         [Int]
         $NumberOfChars = 8
