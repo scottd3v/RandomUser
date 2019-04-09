@@ -1,3 +1,15 @@
+## 1.3.1
+
+Release Date: April 9, 2019
+
+#### RELEASE NOTES
+
+Updated module folder structure
+
+```
+Updated module folder structure
+```
+
 ## 1.3.0
 
 Release Date: April 9, 2019
@@ -9,6 +21,7 @@ Releasing auto-update components into the module and adding private functions.
 ```
 New function: Connect-RandomUser for auto update
 ```
+
 #### FEATURES:
 
 - New Function: Connect-RandomUser
