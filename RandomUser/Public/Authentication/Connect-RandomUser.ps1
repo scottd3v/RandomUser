@@ -27,7 +27,7 @@ Function Connect-RandomUser ()
 
     begin
     {
-        $global:JCUserAgent = $UserAgent
+        $global:RUUserAgent = $UserAgent
 
         
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -44,7 +44,7 @@ Function Connect-RandomUser ()
 
     end
     {
-        $global:JCAPIKEY = $APIKey
+        $global:RUAPIKEY = $APIKey
 
 
         if ($PSCmdlet.ParameterSetName -eq 'Interactive')
@@ -110,7 +110,7 @@ Function Connect-RandomUser ()
                     If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
                     {
 
-                        Write-Warning "You must have Administrative rights to update the module! To retry close this PowerShell session and open a new PowerShell session with Administrator permissions (Right click the PowerShell application and select 'Run as Administrator') and run the Connect-JCOnline command."
+                        Write-Warning "You must have Administrative rights to update the module! To retry close this PowerShell session and open a new PowerShell session with Administrator permissions (Right click the PowerShell application and select 'Run as Administrator') and run the Connect-RUOnline command."
 
                         Return
 
@@ -139,7 +139,7 @@ Function Connect-RandomUser ()
                         If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
                         {
 
-                            Write-Warning "You must have Administrative rights to update the module! To retry close this PowerShell session and open a new PowerShell session with Administrator permissions (Right click the PowerShell application and select 'Run as Administrator') and run the Connect-JCOnline command."
+                            Write-Warning "You must have Administrative rights to update the module! To retry close this PowerShell session and open a new PowerShell session with Administrator permissions (Right click the PowerShell application and select 'Run as Administrator') and run the Connect-RUOnline command."
 
                             Return
 
