@@ -22,7 +22,7 @@ References:
 
 $ModuleName = 'RandomUser'
 
-$ModuleFolderName = 'Random User Module'
+$ModuleFolderName = 'RandomUser'
 
 #$JCAPIKEY = ''
 #
